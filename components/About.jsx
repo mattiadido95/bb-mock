@@ -6,6 +6,7 @@ import { fadeIn } from "@/variants";
 import { useInView } from "react-intersection-observer";
 import { Button } from "./ui/button";
 import { useMediaQuery } from "react-responsive";
+import Stats from "./Stats";
 
 const About = () => {
   return (
@@ -24,6 +25,9 @@ const About = () => {
             reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
             pariatur.
           </p>
+        </div>
+        <div>
+          <Stats />
         </div>
       </div>
     </section>
