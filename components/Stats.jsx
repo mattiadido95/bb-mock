@@ -22,17 +22,21 @@ const statsDate = [
 
 const Stats = () => {
   return (
-    <div >
+    <div className="flex flex-col xl:flex-row gap-x-8 gap-y-4 my-10 ">
       {statsDate.map((item, index) => (
-        <div key={index}>
-          <h3 className="h3 text-soft_green ">
-            <CountUp
-              start={0}
-              end={item.value}
-              decimals={item.value % 1 === 0 ? 0 : 1}
-              duration={2.75}
-            />
-          </h3>
+        <div key={index} className="flex">
+          <div className="flex items-baseline gap-x-2">
+            <h3 className="h3 text-soft_green ">
+              <CountUp
+                start={0}
+                end={item.value}
+                decimals={item.value % 1 === 0 ? 0 : 1}
+                duration={2.75}
+              />
+              <span>{item.unit}</span>
+            </h3>
+            <div className="text-black font-semibold">{item.type}</div>
+          </div>
         </div>
       ))}
     </div>
