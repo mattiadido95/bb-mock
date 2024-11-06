@@ -4,18 +4,18 @@ import CountUp from "react-countup";
 
 const statsDate = [
   {
-    value: 1.2,
-    type: "Hotels",
-    unit: "k",
+    value: 2,
+    type: "Appartamenti",
+    unit: "",
   },
   {
-    value: 4.8,
-    type: "Rooms",
-    unit: "k",
+    value: 5,
+    type: "Stanze",
+    unit: "",
   },
   {
     value: 3.2,
-    type: "Users",
+    type: "Ospiti",
     unit: "k",
   },
 ];

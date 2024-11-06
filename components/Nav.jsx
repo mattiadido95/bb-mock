@@ -3,9 +3,10 @@ import Link from "next/link";
 
 const links = [
   { path: "/", pathname: "Home" },
-  { path: "/", pathname: "About Us" },
-  { path: "/", pathname: "Services" },
-  { path: "/", pathname: "Contact" },
+  { path: "/room", pathname: "Appartamenti" },
+  { path: "/service", pathname: "Servizi" },
+  { path: "/about", pathname: "La nostra Storia" },
+  { path: "/contact", pathname: "Contatti" },
 ];
 
 const Nav = ({ containerStyles, listStyle }) => {

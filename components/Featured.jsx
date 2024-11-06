@@ -22,7 +22,7 @@ function Featured() {
           className="xl:mr-[50px]"
         />
         <h2 className="h2 flex-1 text-soft_green leading-relaxed">
-          Book a room in less than 10 minutes.
+          Prenota in meno di 2 minuti.
         </h2>
         <p className="flex-1 text-soft_green leading-loose">
           lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do

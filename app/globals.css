@@ -2,23 +2,33 @@
 @tailwind components;
 @tailwind utilities;
 
-
 @layer base {
-  body{
+  body {
     @apply bg-body text-grey leading-8;
   }
-  h1, h2, h3, h4, h5, h6 {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
     @apply font-bold text-black;
   }
-  .h2{
+  .h2 {
     @apply text-[32px];
   }
 
-  .h3{
+  .h3 {
     @apply text-2xl;
   }
-  
-  .h4{
+
+  .h4 {
     @apply text-xl;
-  } 
+  }
+}
+
+.swiper-horizontal > .swiper-pagination-bullets .swiper-pagination-bullets,
+.swiper-pagination-horizontal.swiper-pagination-bullets
+  .swiper-pagination-bullet {
+  @apply bg-white;
 }

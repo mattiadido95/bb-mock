@@ -12,11 +12,6 @@ export default function Home() {
     <main className="max-w-[1440px] mx-auto bg-white overflow-hidden">
       <Header />
       <Hero />
-      <Featured />
-      <About />
-      <Recommendation />
-      <Find />
-      <Testimonials />
       <Footer />
       {/* <div className="h-[4000px]"></div> */}
     </main>

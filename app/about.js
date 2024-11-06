@@ -7,16 +7,12 @@ import Recommendation from "@/components/Recommendation";
 import Find from "@/components/Find";
 import Testimonials from "@/components/Testimonials";
 
-export default function Home() {
+export default function About() {
   return (
     <main className="max-w-[1440px] mx-auto bg-white overflow-hidden">
       <Header />
       <Hero />
-      <Featured />
-      <About />
-      <Recommendation />
-      <Find />
-      <Testimonials />
+     
       <Footer />
       {/* <div className="h-[4000px]"></div> */}
     </main>

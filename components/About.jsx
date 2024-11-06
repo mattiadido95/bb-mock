@@ -35,7 +35,7 @@ const About = () => {
             whileInView={"show"}
             viewport={{ once: false, amount: 0.4 }}
           >
-            <h2 className="h2 mb-[38px]">About Hotely</h2>
+            <h2 className="h2 mb-[38px]">Le nostre strutture</h2>
             <p>
               lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -50,7 +50,7 @@ const About = () => {
             <p className="mb-10">
               lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
             </p>
-            <Button variant="accent">Learn More</Button>
+            <Button variant="accent">Approfondisci</Button>
           </motion.div>
         </div>
       </div>

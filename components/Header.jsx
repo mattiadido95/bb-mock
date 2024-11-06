@@ -20,7 +20,7 @@ const Header = () => {
                 listStyle="flex gap-x-12 text-white"
               />
               <Button variant="outline" className="px10 h-[58px]">
-                Login
+                Accedi
               </Button>
             </div>
           </div>
